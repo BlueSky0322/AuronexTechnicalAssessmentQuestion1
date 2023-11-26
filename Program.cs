@@ -21,20 +21,21 @@ namespace Question1
             //for loop to loop from 1 to n
             for (int i = 1; i <= n; i++)
             {
+                //During the looping, when the counter is divided both 3 and 5, print "fizzbuzz"
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("fizzbuzz");
+                }
                 //During the looping, when the counter is divided by 3, print "fizz"
-                if (i % 3 == 0)
+                else if (i % 3 == 0)
                 {
                     Console.WriteLine("fizz");
                 }
+
                 //During the looping, when the counter is divided by 5, print "buzz"
                 else if (i % 5 == 0)
                 {
                     Console.WriteLine("buzz");
-                }
-                //During the looping, when the counter is divided both 3 and 5, print "fizzbuzz"
-                else if (i % 3 == 0 && i % 5 == 0)
-                {
-                    Console.WriteLine("fizzbuzz");
                 }
                 //else print out number
                 else
