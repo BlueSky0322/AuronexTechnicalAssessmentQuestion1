@@ -31,7 +31,6 @@ namespace Question1
                 {
                     Console.WriteLine("fizz");
                 }
-
                 //During the looping, when the counter is divided by 5, print "buzz"
                 else if (i % 5 == 0)
                 {
